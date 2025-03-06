@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <style>
+        /* Estilos para la lista de nombres */
+        .nombres {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #2c3e50;
+            list-style-type: none; /* Quita los puntos de la lista */
+            padding: 0;
+            margin: 0;
+        }
+        .nombres li {
+            margin-bottom: 5px; /* Espacio entre los nombres */
+        }
+    </style>
 </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
@@ -123,5 +140,13 @@
           <text x="0" y="145" font-family="Arial" font-size="12" text-anchor="middle">Área central: 95%</text>
         </g>
       </svg>
+    <!-- Lista de nombres en la esquina inferior derecha -->
+      <div class="nombres">
+        <ul>
+          <li>ESTELA DONAJI HUERTA SANCHEZ</li>
+          <li>JORGE EMILIANO DOMINGUEZ UTRERA</li>
+          <li>CARLOS ANDRES ORTIZ PEREZ</li>
+        </ul>
+      </div>
 </body>
 </html>
